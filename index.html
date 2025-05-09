@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Profil Saya</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tebak Angka</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Halo, saya Budi!</h1>
-    <p>Web Developer Pemula</p>
-  </header>
-
-  <section>
-    <h2>Tentang Saya</h2>
-    <p>Saya sedang belajar membuat website menggunakan HTML dan CSS.</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Budi</p>
-  </footer>
+  <div class="container">
+    <h1>Tebak Angka ya ketua</h1>
+    <p>Saya menyimpan angka antara 1 sampai 100. Bisa tebak?</p>
+    <input type="number" id="guess" placeholder="Masukkan tebakanmu" />
+    <button onclick="checkGuess()">Tebak lah masa nggak</button>
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
